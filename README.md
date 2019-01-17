@@ -5,6 +5,8 @@
 * This solution isn't using Username/Password header with Cisco DNA-C (let me know if needed)
 * Host this solution behind something that handles encryption (TLS) - else the payload is unencrypted from DNA-C
 
+![](cisco.dnac.webex.teams.assurance.jpg)
+
 ## How to run
 ```
 docker run -d -p 5000:5000 -e WEBEX_TEAMS_ACCESS_TOKEN="TOKEN" -e WEBEX_TEAMS_ROOM_ID="ID" robertcsapo/cisco-dnac-platform-webex-notifications
