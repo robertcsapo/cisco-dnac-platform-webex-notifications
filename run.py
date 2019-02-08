@@ -55,7 +55,7 @@ def webex(*data):
         webexAPI.messages.create(webexRoomId, text=data)
     else:
         webexAPI.messages.create(webexRoomId, text="Sample connection!")
-    return("webex")
+    return("Sample Webex Teams Message")
 
 @app.route('/dnac', methods=['POST'])
 def dnacPayload():
