@@ -55,6 +55,11 @@ Sends Sample data to Webex Room
 #### POST http://localhost:5000/postsample
 Send your own JSON sample data (use POST Method and Postman)
 #### POST JSON Sample Data (through Postman or curl)
+  
+### Cisco DNA Center (POST) - /dnac URL
+#### POST http://localhost:5000/dnac
+This is the URL Path that Cisco DNA Center uses
+#### You configure this in Systems Settings (Cisco DNA Center)
 ```
 {
 	"id": "AWZJw6y7OyE4MOPs83V-",
