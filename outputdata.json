@@ -15,14 +15,14 @@
 	"tags": null,
 	"details": {
 		"Type": "Network Device",
-		"Assurance Issue Details": "Switch sthlab-hall-sw-7.labrats.se Interface GigabitEthernet1/0/15 is flapping",
+		"Assurance Issue Details": "Switch hostname.domain.tld Interface GigabitEthernet1/0/15 is flapping",
 		"Assurance Issue Priority": "P3",
 		"Device": "100.118.1.72",
 		"Assurance Issue Name": "Interface GigabitEthernet1/0/15 is Flapping on Network Device 100.118.1.72",
 		"Assurance Issue Category": "Device",
 		"Assurance Issue Status": "active"
 	},
-	"ciscoDnaEventLink": "dna/assurance/issueDetails?issueId=ab16e413-c940-4a51-a9e6-341ff6beba65",
+	"ciscoDnaEventLink": "https://127.0.0.1/dna/assurance/issueDetails?issueId=ab16e413-c940-4a51-a9e6-341ff6beba65",
 	"note": "To programmatically get more info see here - https://<ip-address>/dna/platform/app/consumer-portal/developer-toolkit/apis?apiId=8684-39bb-4e89-a6e4",
 	"tntId": "",
 	"context": null,

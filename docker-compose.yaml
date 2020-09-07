@@ -1,0 +1,10 @@
+version: "3"
+services:
+  api:
+    image: robertcsapo/cisco-dnac-platform-webex-notifications:latest
+    environment:
+     - "WEBEX_TEAMS_ACCESS_TOKEN=changeme"
+     - "WEBEX_TEAMS_ROOM_ID=changeme"
+    ports:
+      - "5000:5000"
+    network_mode: bridge
